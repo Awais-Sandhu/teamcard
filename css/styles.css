@@ -1,0 +1,478 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+/********************/
+/**Players Section***/
+/********************/
+
+/* player-cards */
+/****************/
+
+.player-cards .player-1:nth-child(1){
+    width: 420px;
+    background-color: #4aa7e0;
+    background-image: url(../imgs/player-bg.png);
+    /* margin-top: 50px; */
+    z-index: -999;
+}
+/*****************/
+/**** Player 1***/
+/*****************/
+    /* Card Body */
+/***********************/
+/* player-1 card left side */
+.player-1 .card-body .left-side {
+    position: relative;
+    background-color: #0055b0;
+    color: white;
+    z-index: -999;
+    /* height: 100%; */
+    padding-bottom: 65px;
+}
+.player-1 .card-body {
+    position: relative;
+}
+.player-1 .card-body .left-side h4 {
+    background-color: #11063b;
+    padding: 15px 8px 15px 20px;
+    font-size: 16px;
+}
+.player-1 .card-body .left-side ul {
+    list-style: none;
+    margin-top: 25px;
+    padding-left: 20px;
+}
+.player-1 .card-body .left-side ul li p span{
+    padding: 2px 8px 2px 8px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    font-size: 13px;
+    color: #0055b0;
+    font-weight: 900;
+}
+.player-1 .card-body .left-side ul li p{
+    margin-bottom: 0;
+}
+.player-1 .card-body .left-side ul li strong {
+    font-size: 24px;
+    margin-left: 8px;
+}
+/* player-1 card right side */
+.player-1 .card-body .right-side {
+    padding-right: 15px;
+    padding-top: 15px;
+    float: right;
+    color: white !important;
+}
+.player-1 .card-body .right-side .badge {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #05163b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    margin-bottom: 25px;
+    float: right;
+}
+.player-1 .card-body .right-side .country img {
+    width: 68px;
+    margin-bottom: 5px;
+}
+.player-1 .card-body .overlay {
+    position: absolute;
+    content: "";
+    background-image: url(../imgs/player1.png);
+    background-repeat: no-repeat;
+    z-index: 16;
+    width: 230px;
+    height: 400px;
+    background-size: contain;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.player-1 .card-body .circle-bg {
+    position: absolute;
+    content: "";
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    background-color: white;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -5;
+}
+.player-1 .card-body .player-name {
+    position: absolute;
+    bottom: 0;
+    width: 280px;
+    padding: 10px 0;
+    border-radius: 39px;
+    background-color: #ffffff;
+    z-index: 999;
+    border: 4px solid #0055b0;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+}
+/* card-footer */
+.player-1 .card-footer {
+    background-color: #11063b;
+    padding-left: 15px;
+}
+.player-1 .card-footer .player-star i {
+    color: yellow !important;
+    font-size: 18px !important;
+}
+.player-1 .card-footer {
+    font-size: 10px;
+    color: white;
+}
+.player-1 .card-footer .percentage-container .percentage {
+    width: 100%;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+.player-1 .card-footer .percentage-container strong {
+    font-size: 14px;
+}
+.player-1 .card-footer .percentage-container .percentage::before {
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #4aa7e0;
+}
+.player-1 .card-footer .player-number {
+    background-color: #0055b0 !important;
+}
+.player-1 .card-footer .player-number strong {
+    font-size: 60px;
+    font-weight: 900;
+    color: white !important;
+}
+/* ../card-footer */
+
+/*****************/
+/**** Player 2***/
+/*****************/
+.player-cards .player-2:nth-child(2){
+    width: 420px;
+    background-color: #ff9900;
+    background-image: url(../imgs/player-bg.png);
+    /* margin-top: 50px; */
+    z-index: -999;
+}
+.player-2 .card-body .left-side {
+    position: relative;
+    background-color: #cc5c00;
+    color: white;
+    z-index: -999;
+    padding-bottom: 65px;
+}
+.player-2 .card-body {
+    position: relative;
+}
+.player-2 .card-body .left-side h4 {
+    background-color: #11063b;
+    padding: 15px 8px 15px 20px;
+    font-size: 16px;
+}
+.player-2 .card-body .left-side ul {
+    list-style: none;
+    margin-top: 25px;
+    padding-left: 20px;
+}
+.player-2 .card-body .left-side ul li p span{
+    padding: 2px 8px 2px 8px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    font-size: 13px;
+    color: #cc5c00;
+    font-weight: 900;
+}
+.player-2 .card-body .left-side ul li p{
+    margin-bottom: 0;
+}
+.player-2 .card-body .left-side ul li strong {
+    font-size: 24px;
+    margin-left: 8px;
+}
+/* player-1 card right side */
+.player-2 .card-body .right-side {
+    padding-right: 15px;
+    padding-top: 15px;
+    float: right;
+    color: white !important;
+}
+.player-2 .card-body .right-side .badge {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #05163b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    margin-bottom: 25px;
+    float: right;
+}
+.player-2 .card-body .right-side .country img {
+    width: 68px;
+    margin-bottom: 5px;
+}
+.player-2 .card-body .overlay {
+    position: absolute;
+    content: "";
+    background-image: url(../imgs/player2.png);
+    background-repeat: no-repeat;
+    z-index: 16;
+    width: 320px;
+    height: 400px;
+    background-size: contain;
+    left: 50%;
+    top: 70px;
+    transform: translateX(-42%);
+}
+.player-2 .card-body .circle-bg {
+    position: absolute;
+    content: "";
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    background-color: white;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -5;
+}
+.player-2 .card-body .player-name {
+    position: absolute;
+    bottom: 0;
+    width: 280px;
+    padding: 10px 0;
+    border-radius: 39px;
+    background-color: #ffffff;
+    z-index: 99;
+    border: 4px solid #cc5c00;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+}
+/* card-footer */
+.player-2 .card-footer {
+    position: relative;
+    z-index: 30;
+    background-color: #11063b;
+    padding-left: 15px;
+}
+.player-2 .card-footer .player-star i {
+    color: yellow !important;
+    font-size: 18px !important;
+}
+.player-2 .card-footer {
+    font-size: 10px;
+    color: white;
+}
+.player-2 .card-footer .percentage-container .percentage {
+    width: 100%;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+.player-2 .card-footer .percentage-container strong {
+    font-size: 14px;
+}
+.player-2 .card-footer .percentage-container .percentage::before {
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #cc5c00;
+}
+.player-2 .card-footer .player-number {
+    margin-left: 0.5px;
+    background-color: #cc5c00;
+}
+.player-2 .card-footer .player-number strong {
+    font-size: 60px;
+    font-weight: 900;
+    color: white !important;
+}
+/*****************/
+/**** Player 3***/
+/*****************/
+.player-cards .player-3:nth-child(3){
+    width: 420px;
+    background-color: #9664f5;
+    background-image: url(../imgs/player-bg.png);
+    /* margin-top: 50px; */
+    z-index: -999;
+}
+.player-3 .card-body .left-side {
+    position: relative;
+    background-color: #5022a3;
+    color: white;
+    z-index: -999;
+    padding-bottom: 65px;
+}
+.player-3 .card-body {
+    position: relative;
+}
+.player-3 .card-body .left-side h4 {
+    background-color: #11063b;
+    padding: 15px 8px 15px 20px;
+    font-size: 16px;
+}
+.player-3 .card-body .left-side ul {
+    list-style: none;
+    margin-top: 25px;
+    padding-left: 20px;
+}
+.player-3 .card-body .left-side ul li p span{
+    padding: 2px 8px 2px 8px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    font-size: 13px;
+    color: #5022a3;
+    font-weight: 900;
+}
+.player-3 .card-body .left-side ul li p{
+    margin-bottom: 0;
+}
+.player-3 .card-body .left-side ul li strong {
+    font-size: 24px;
+    margin-left: 8px;
+}
+/* player-3 card right side */
+.player-3 .card-body .right-side {
+    padding-right: 15px;
+    padding-top: 15px;
+    float: right;
+    color: white !important;
+}
+.player-3 .card-body .right-side .badge {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #05163b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    margin-bottom: 25px;
+    float: right;
+}
+.player-3 .card-body .right-side .country img {
+    width: 68px;
+    margin-bottom: 5px;
+}
+.player-3 .card-body .overlay {
+    position: absolute;
+    content: "";
+    background-image: url(../imgs/player3.png);
+    background-repeat: no-repeat;
+    z-index: 16;
+    width: 350px;
+    height: 400px;
+    background-size: contain;
+    left: 50%;
+    top: 68px;
+    transform: translateX(-45%);
+}
+.player-3 .card-body .circle-bg {
+    position: absolute;
+    content: "";
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    background-color: white;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -5;
+}
+.player-3 .card-body .player-name {
+    position: absolute;
+    bottom: 0;
+    width: 280px;
+    padding: 10px 0;
+    border-radius: 39px;
+    background-color: #ffffff;
+    z-index: 999;
+    border: 4px solid #9664f5;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+}
+/* card-footer */
+.player-3 .card-footer {
+    background-color: #11063b;
+    padding-left: 15px;
+}
+.player-3 .card-footer .player-star i {
+    color: yellow !important;
+    font-size: 18px !important;
+}
+.player-3 .card-footer {
+    font-size: 10px;
+    color: white;
+}
+.player-3 .card-footer .percentage-container .percentage {
+    width: 100%;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+.player-3 .card-footer .percentage-container strong {
+    font-size: 14px;
+}
+.player-3 .card-footer .percentage-container .percentage::before {
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #9664f5;
+}
+.player-3 .card-footer .player-number {
+    background-color:  #5022a3;
+}
+.player-3 .card-footer .player-number strong {
+    font-size: 60px;
+    font-weight: 900;
+    color: white !important;
+}
+/* media qouery for alll cards */
+@media (max-width: 900px) {
+     .player-cards .player-1:nth-child(2), .player-cards .player-1:nth-child(3) {width: 380px;}
+    .player-1 .card-body .circle-bg, .player-2 .card-body .circle-bg, .player-3 .card-body .circle-bg {
+        height: 200px;
+        width: 200px;
+    }
+}
+@media (min-width: 870px) {
+    .player-2 {
+        margin-left: 18px !important;
+    }
+}
